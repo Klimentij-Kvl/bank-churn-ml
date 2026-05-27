@@ -48,15 +48,7 @@ Target variable:
 
 ## Project Architecture
 
-Client Request
-      ↓
- FastAPI Service
-      ↓
-Preprocessing Pipeline
-      ↓
- ML Model
-      ↓
-Prediction Response
+Client Request → FastAPI Service → Preprocessing Pipeline → ML Model → Prediction Response
 
 ## ML Pipeline
 
